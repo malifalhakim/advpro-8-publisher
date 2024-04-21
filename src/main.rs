@@ -36,4 +36,4 @@ fn main() {
     _ = p.publish_event("user_created".to_owned(),
    UserCreatedEventMessage { user_id: "5".to_owned(), user_name:
    "2206081250-Emir".to_owned() });
-   }
+}

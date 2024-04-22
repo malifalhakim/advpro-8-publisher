@@ -13,3 +13,8 @@ Url atau connection string yang digunakan oleh publisher dan subscriber sama ber
 **Running RabbitMQ as message broker**
 
 ![alt text](image-1.png)
+
+**Sending and processing event**
+![alt text](image-2.png)
+
+Ketika publisher dijalankan,publisher akan mengirimkan 5 event atau pesan ke message broker.Subscriber kemudian menerima pesan ini melalui message broker dan menampilkan pesan tersebut di console seperti gambar diatas.

@@ -18,3 +18,8 @@ Url atau connection string yang digunakan oleh publisher dan subscriber sama ber
 ![alt text](image-2.png)
 
 Ketika publisher dijalankan,publisher akan mengirimkan 5 event atau pesan ke message broker.Subscriber kemudian menerima pesan ini melalui message broker dan menampilkan pesan tersebut di console seperti gambar diatas.
+
+**Monitoring chart based on publisher**
+![alt text](image-3.png)
+
+Pada gambar ke 2. terlihat bahwa terjadi peningkatan message dalam suatu interval waktu.Hal ini berkaitan dengan publisher yang dijalankan menggunakan cargo run sebelumnya. Gambar tersebut menunjukkan bahwa setiap kali publisher dijalankan terjadi peningkatan message rate pada rabbitMQ.

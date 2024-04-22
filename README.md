@@ -23,8 +23,3 @@ Ketika publisher dijalankan,publisher akan mengirimkan 5 event atau pesan ke mes
 ![alt text](image-3.png)
 
 Pada gambar ke 2. terlihat bahwa terjadi peningkatan message dalam suatu interval waktu.Hal ini berkaitan dengan publisher yang dijalankan menggunakan cargo run sebelumnya. Gambar tersebut menunjukkan bahwa setiap kali publisher dijalankan terjadi peningkatan message rate pada rabbitMQ.
-
-**Simulation slow subscriber**
-![alt text](image-4.png)
-
-Pada gambar diatas terlihat bahwa, pada suatu waktu, terdapat 20 message pada queue. Hal ini terjadi karena subscriber memerlukan waktu yang lama untuk mengelola tiap event atau pesan dibandingkan publisher mengirim event atau pesan sehingga terjadi penumpukan messag.
